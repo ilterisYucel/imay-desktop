@@ -1,14 +1,14 @@
 {
   "name": "imay-asansor",
   "version": "1.0.0",
-  "description": "An Amazing Capacitor App",
+  "description": "İmay Asansör Yönetim Uygulaması",
   "author": {
-    "name": "ilteris.yucel@mail.com",
-    "email": "ilteris.yucel@gmail.com"
+    "name": "Merhaba Yazılım",
+    "email": "info@merhabayazilim.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ilterisYucel/imay-asansor"
+    "url": "https://github.com/ilterisYucel/imay-desktop.git"
   },
   "license": "MIT",
   "main": "build/src/index.js",

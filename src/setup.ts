@@ -256,8 +256,8 @@ export function setupContentSecurityPolicy(customScheme: string): void {
         ...details.responseHeaders,
         "Content-Security-Policy": [
           electronIsDev
-            ? `default-src ${customScheme}://* 'unsafe-inline' devtools://* 'unsafe-eval' data: ; connect-src http://3.122.224.80:8000; `
-            : `default-src ${customScheme}://* 'unsafe-inline' data: ; connect-src http://3.122.224.80:8000;`,
+            ? `default-src ${customScheme}://* 'unsafe-inline' devtools://* 'unsafe-eval' data: ; connect-src https://imayyonetim.com:8000; `
+            : `default-src ${customScheme}://* 'unsafe-inline' data: ; connect-src https://imayyonetim.com:8000;`,
         ],
       },
     });

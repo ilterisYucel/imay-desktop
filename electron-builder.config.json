@@ -1,5 +1,5 @@
 {
-  "appId": "com.imay.erp",
+  "appId": "com.imay.management",
   "directories": {
     "buildResources": "resources"
   },
@@ -17,9 +17,12 @@
     "oneClick": false,
     "allowToChangeInstallationDirectory": true
   },
+  "linux": {
+    "icon": "assets/appIcon.png"
+  },
   "win": {
     "target": "portable",
-    "icon": "assets/appIcon.ico"
+    "icon": "assets/appIcon.png"
   },
   "portable": {
     "unicode": false,
